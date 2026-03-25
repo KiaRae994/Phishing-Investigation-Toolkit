@@ -1,0 +1,9 @@
+PHISHING INVESTIGATION TOOLKIT - DEMO SUMMARY
+==================================================
+
+Total emails analyzed: 3
+Sanitized for GitHub: YES
+Report generated: my_first_report.html
+
+All sensitive information has been replaced with placeholders.
+This demonstrates the methodology without exposing real data.

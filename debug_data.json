@@ -1,0 +1,84 @@
+{
+  "emails": [
+    {
+      "date": "Wed, 11 Feb 2026 13:58:54 +0000",
+      "from": "Kaitlyn Van Weelden <vanweeldenkaitlyn@sau.edu>",
+      "sender_email": "vanweeldenkaitlyn@sau.edu",
+      "subject": "Open Slot",
+      "return_path": "Unknown",
+      "message_id": "<DS0PR14MB72564A198875169AD397B8E7A663A@DS0PR14MB7256.namprd14.prod.outlook.com>",
+      "ips": []
+    },
+    {
+      "date": "Mon, 26 Jan 2026 20:29:42 +0000",
+      "from": "Gabriel Sousa <gabriel.sousa@stine.com.br>",
+      "sender_email": "gabriel.sousa@stine.com.br",
+      "subject": "[EXTERNAL] Remote RA Opportunity",
+      "return_path": "gabriel.sousa@stine.com.br",
+      "message_id": "<CP5P284MB26168C0D973BF528747012CDCD93A@CP5P284MB2616.BRAP284.PROD.OUTLOOK.COM>",
+      "ips": [
+        "208.86.201.203",
+        "8.18.1.11",
+        "127.0.0.1",
+        "40.107.202.91",
+        "10.167.242.55"
+      ]
+    },
+    {
+      "date": "Wed, 28 Jan 2026 15:42:37 +0000",
+      "from": "Mariah Balinski <balinskimariahe@sau.edu>",
+      "sender_email": "balinskimariahe@sau.edu",
+      "subject": "Open Slot: Remote RA",
+      "return_path": "Unknown",
+      "message_id": "<CH2PR14MB402302AC0D16A9E188A05906A591A@CH2PR14MB4023.namprd14.prod.outlook.com>",
+      "ips": []
+    },
+    {
+      "date": "Tue, 17 Feb 2026 23:25:36 +0000",
+      "from": "Jordon Williams <williamsjordonr@sau.edu>",
+      "sender_email": "williamsjordonr@sau.edu",
+      "subject": "Now Hiring: Remote Undergraduate Research Assistant St. Ambrose University\u00a0\u2013 All Departments",
+      "return_path": "Unknown",
+      "message_id": "<PH8PR14MB6136EA21C27AD3E75849104AAF6DA@PH8PR14MB6136.namprd14.prod.outlook.com>",
+      "ips": []
+    },
+    {
+      "date": "Thu, 15 Jan 2026 13:15:01 +0000",
+      "from": "Woulfe Daniel M <WoulfeDanielM@sau.edu>",
+      "sender_email": "WoulfeDanielM@sau.edu",
+      "subject": "REMOTE JOB OFFER ",
+      "return_path": "Unknown",
+      "message_id": "<IA1PR14MB67769EF95344EC26BC53628AA38CA@IA1PR14MB6776.namprd14.prod.outlook.com>",
+      "ips": []
+    },
+    {
+      "date": "Mon, 12 Jan 2026 15:36:13 +0000",
+      "from": "Amy Waters <watersamyc@sau.edu>",
+      "sender_email": "watersamyc@sau.edu",
+      "subject": "Limited Slots: Paid Remote RA",
+      "return_path": "Unknown",
+      "message_id": "<SJ0PR14MB4457FBE078302C5686F00EC9D781A@SJ0PR14MB4457.namprd14.prod.outlook.com>",
+      "ips": []
+    },
+    {
+      "date": "Mon, 26 Jan 2026 20:20:33 +0000",
+      "from": "Gabriel Sousa <gabriel.sousa@stine.com.br>",
+      "sender_email": "gabriel.sousa@stine.com.br",
+      "subject": "[EXTERNAL] Remote RA Opportunity",
+      "return_path": "gabriel.sousa@stine.com.br",
+      "message_id": "<CP5P284MB2616AD89F5036B2A71644F06CD93A@CP5P284MB2616.BRAP284.PROD.OUTLOOK.COM>",
+      "ips": [
+        "67.231.145.166",
+        "40.107.203.133",
+        "10.167.241.202",
+        "8.18.1.11",
+        "127.0.0.1"
+      ]
+    }
+  ],
+  "infrastructure": {
+    "stine.com.br": {
+      "error": "[WinError 2] The system cannot find the file specified"
+    }
+  }
+}
