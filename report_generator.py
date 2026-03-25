@@ -81,7 +81,7 @@ class ReportGenerator:
             self.emails = self.sanitize_dict(self.emails)
             self.infrastructure = self.sanitize_dict(self.infrastructure)
         
-        # Analyzes the data like you did manually
+        # Analyzes the data like you would manually
         compromised_accounts = []
         fake_accounts = []
         external_domains = set()

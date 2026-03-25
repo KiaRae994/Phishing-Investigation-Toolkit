@@ -23,7 +23,7 @@ class PhishingInvestigator:
             else:
                 sender_email = from_field
             
-            # Get received headers (where IPs hide)
+            # Get received headers (this hides the IPs)
             received = msg.get_all('Received', [])
             ips = []
             ip_pattern = r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b'
@@ -32,7 +32,7 @@ class PhishingInvestigator:
                 found_ips = re.findall(ip_pattern, str(header))
                 ips.extend(found_ips)
             
-            # Building an email data dictionary
+            # This builds the email data dictionary
             email_data = {
                 'date': msg.get('Date', 'Unknown'),
                 'from': from_field,
@@ -40,10 +40,10 @@ class PhishingInvestigator:
                 'subject': msg.get('Subject', 'No Subject'),
                 'return_path': msg.get('Return-Path', 'Unknown'),
                 'message_id': msg.get('Message-ID', 'Unknown'),
-                'ips': list(set(ips))  # Remove duplicates
-            }
+                'ips': list(set(ips))  
+            } # Removes duplicates
             
-            # Add to our collection
+            # Reminder, this adds to our collection 
             self.emails.append(email_data)
             return email_data
             
@@ -51,7 +51,7 @@ class PhishingInvestigator:
             print(f"Error parsing {filepath}: {e}")
             return None
 
-# This is to test to see if it if runs directly
+# This is to test to see if it runs directly
 if __name__ == '__main__':
     test = PhishingInvestigator()
     print("Email parser ready!")
