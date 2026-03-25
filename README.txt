@@ -75,15 +75,16 @@ Project Timeline
  Quick Start
 
 
-# Clone the repository
-git clone https://github.com/yourusername/phishing-investigation-toolkit.git
-cd phishing-investigation-toolkit
+Clone the repository
+ git clone https://github.com/yourusername/phishing-investigation-toolkit.git
+ cd phishing-investigation-toolkit
 
-# Install dependencies (This must be installed to work)
-pip install requests python-whois
+Install dependencies (This must be installed to work)
+ pip install requests python-whois
 
 
 How to Get Emails for Analysis
+ 
 This toolkit analyzes emails saved as .eml files. Here's how to save emails from common providers:
 
 Gmail / Google Workspace
@@ -97,6 +98,7 @@ Gmail / Google Workspace
 - Save the .eml file to your analysis folder
 
 Outlook Web (Office 365 / Outlook.com)
+
 - Open the email
 
 - Click the three dots (⋯) in the email toolbar
@@ -116,6 +118,7 @@ Alternative Method (Always Works):
 - Click the attachment dropdown and select "Download"
 
 Outlook Desktop (Windows)
+
 - Open the email
 
 - Click File → Save As
@@ -125,6 +128,7 @@ Outlook Desktop (Windows)
 Note: .msg files may require conversion—recommend using Outlook Web instead
 
 Apple Mail (Mac)
+
 - Select the email
 
 - Click File → Save As...
@@ -150,15 +154,15 @@ python main_github.py --folder emails --output investigation_report.html
 
 Don't have suspicious emails to test with? Create sample data:
 
-# Create sample data to test with
-python main_github.py --create-sample
+Create sample data to test with
+ python main_github.py --create-sample
 
-# Run the toolkit on sample data
-python main_github.py --output my_first_report.html
+Run the toolkit on sample data
+ python main_github.py --output my_first_report.html
 
-# Open the report
-start my_first_report.html  # On Windows
-open my_first_report.html    # On Mac
+Open the report
+ start my_first_report.html  # On Windows
+ open my_first_report.html    # On Mac
 
 Phishing Campaign Investigation Report
 Generated: March 20, 2026
