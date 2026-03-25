@@ -19,7 +19,7 @@ During Spring Break 2026, I decided to take what I learned from my manual invest
 
 How This Was Built
 
-I'm a cybersecurity student still strengthening my Python skills. This project was a **collaborative learning experience:
+I'm a cybersecurity student still strengthening my Python skills. This project was a collaborative learning experience:
 
 I provided:
   - The initial idea and vision
@@ -34,7 +34,7 @@ I learned from:
   - Trial and error (lots of debugging!)
   - Stack Overflow and online resources
 
-This reflects how real development works—**knowing what to build, leveraging resources, and continuously learning**. Every line of code taught me something new about Python, file handling, APIs, and security forensics.
+This reflects how real development works: knowing what to build, leveraging resources, and continuously learning. Every line of code taught me something new about Python, file handling, APIs, and security forensics.
 
 Privacy Note
 
@@ -133,7 +133,7 @@ Apple Mail (Mac)
 
 Save to your analysis folder
 
-Organinzing your emails
+Organizing your emails
 
 Once saved, place your .eml files in a folder:
 
