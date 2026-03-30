@@ -1,0 +1,23 @@
+{
+  "emails": [
+    {
+      "date": "Wed, 11 Feb 2026 13:58:54 +0000",
+      "from": "Student 2017 <student2017@university.edu>",
+      "sender_email": "student2017@university.edu",
+      "subject": "Open Slot",
+      ...
+    },
+    {
+      "date": "Mon, 26 Jan 2026 20:29:42 +0000",
+      "from": "Gabriel Sousa <gabriel.sousa@attacker-domain.com>",
+      "sender_email": "gabriel.sousa@attacker-domain.com",
+      "subject": "[EXTERNAL] Remote RA Opportunity",
+      ...
+    }
+  ],
+  "infrastructure": {
+    "attacker-domain.com": {
+      "error": "WHOIS lookup failed (sanitized)"
+    }
+  }
+}
