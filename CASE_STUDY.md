@@ -4,6 +4,18 @@
 
 ---
 
+## How This Started
+
+I received my first phishing email on January 12, 2026. Instead of deleting it, I got curious. I was bored, honestly—and that combination led me down a rabbit hole.
+
+I started saving every suspicious email instead of reporting them. Over the next month, I watched the pattern build: different senders, different names, but the same infrastructure underneath.
+
+On the night of February 17–18, I sat down and asked: *What's actually happening here?*
+
+Two hours later, I had mapped the entire campaign. This document is what I found.
+
+---
+
 ## Table of Contents
 
 1. [Executive Summary](#executive-summary)
@@ -79,7 +91,7 @@ The email accounts sending phishing emails belonged to former students dating ba
 
 ## Fabricated Identities
 
-The first phishing email came from a display name that left no digital footprint. Searches across Google, LinkedIn, yearbook archives, and public records returned zero results—no social media, no university history, no obituaries, no news articles.
+The first phishing email came from a display name that left no digital footprint. Searches across Google, LinkedIn, yearbook archives, and public records returned zero results; no social media, no university history, no obituaries, no news articles.
 
 **What This Confirms:**
 - The display name was completely fabricated
@@ -145,7 +157,7 @@ The email address used in one phishing attempt appeared to belong to a real indi
 
 **Possible Explanations:**
 1. Direct involvement of this individual in the phishing operation
-2. Identity theft—the name and email being used without knowledge
+2. Identity theft: the name and email being used without knowledge
 3. Compromised account or stolen credentials
 
 > **Note:** The individual was not contacted. Investigation of this lead should be handled by appropriate authorities.
@@ -182,11 +194,10 @@ The email address used in one phishing attempt appeared to belong to a real indi
 
 ## Why This Toolkit Exists
 
-The initial investigation took approximately **two hours** on the night of February 17–18, 2026. After noticing a pattern I had been tracking for over a month, I sat down and documented everything.Timeline, compromised accounts, infrastructure, and recommendations.
-
-**But here's what mattered:** While I could piece it together quickly because I had been saving emails and observing patterns, doing this manually isn't scalable. If I had to investigate a larger campaign with hundreds of emails, those two hours would become days.
+Here's what mattered: While I could piece the investigation together quickly because I had been saving emails and observing patterns, doing this manually isn't scalable. If I had to investigate a larger campaign with hundreds of emails, those two hours would become days.
 
 That's why I built the toolkit. It automates the entire process:
+
 - Parses email headers from '.eml' files
 - Extracts sender information, IP addresses, and authentication results
 - Performs WHOIS lookups on attacker domains
@@ -195,6 +206,7 @@ That's why I built the toolkit. It automates the entire process:
 - Generates professional HTML reports
 
 **Impact:** What I did in two hours of focused analysis can now be done in seconds and scaled to any number of emails.
+
 ---
 
 ## Conclusion
