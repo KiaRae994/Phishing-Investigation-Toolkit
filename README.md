@@ -1,4 +1,4 @@
-# Phishing Investigation Toolkit
+# Phishing Investigation & Automation Toolkit
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
